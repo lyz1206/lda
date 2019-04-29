@@ -6,4 +6,4 @@ Created on Mon Apr 29 16:51:16 2019
 @author: linyizi
 """
 
-from ldapkg import lda
+from ldapkg import lda_opt

@@ -11,7 +11,7 @@ setuptools.setup(
     description="Latent Dirichlet Allocation Model",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/lyz1206/lda",
+    url="https://github.com/lyz1206/lda/ldapkg",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

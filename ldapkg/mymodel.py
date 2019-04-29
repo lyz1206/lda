@@ -39,7 +39,6 @@ class LDA_OPT():
     
     
     @staticmethod
-    @numba.jit(cache = True)
     def _accumulate_Phi(beta, Phi, doc):
         '''
         This function accumulates the effect of Phi_new from all documents after e step.

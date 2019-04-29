@@ -39,7 +39,7 @@ class LDA_OPT():
     
     
     @staticmethod
-    @numba.jit
+    @numba.jit()
     def _accumulate_Phi(beta, Phi, doc):
         '''
         This function accumulates the effect of Phi_new from all documents after e step.
@@ -154,7 +154,7 @@ class LDA_OPT():
     
     
     
-    @numba.jit
+    @numba.jit()
     def E(self, doc, alpha_old, beta_old, beta_new, gamma_matrix, N_d, M):
         '''
         Get $\gamma$ and $Phi$ for all documents and calculate the statistics for M step.

@@ -1,6 +1,7 @@
 import numpy as np
 import numba
 from scipy.special import digamma, polygamma
+import sys
 
 
 class LDA_OPT():
@@ -152,6 +153,7 @@ class LDA_OPT():
         return alpha_new
     
     
+    sys.frozen = True
     @numba.jit(cache = True)
     def E(self, doc, alpha_old, beta_old, beta_new, gamma_matrix, N_d, M):
         '''

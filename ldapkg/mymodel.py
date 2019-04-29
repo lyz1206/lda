@@ -1,7 +1,6 @@
 import numpy as np
 import numba
 from scipy.special import digamma, polygamma
-import sys
 
 
 class LDA_OPT():
@@ -40,6 +39,7 @@ class LDA_OPT():
     
     
     @staticmethod
+    @numba.jit
     def _accumulate_Phi(beta, Phi, doc):
         '''
         This function accumulates the effect of Phi_new from all documents after e step.
@@ -153,8 +153,8 @@ class LDA_OPT():
         return alpha_new
     
     
-    sys.frozen = True
-    @numba.jit(cache = True)
+    
+    @numba.jit
     def E(self, doc, alpha_old, beta_old, beta_new, gamma_matrix, N_d, M):
         '''
         Get $\gamma$ and $Phi$ for all documents and calculate the statistics for M step.

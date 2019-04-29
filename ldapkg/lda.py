@@ -3,7 +3,7 @@ import numba
 from scipy.special import digamma, polygamma
 
 
-class LDA_OPT(object):
+class LDA_OPT():
     
     @staticmethod
     def _convergence_(new, old, epsilon = 1.0e-3):

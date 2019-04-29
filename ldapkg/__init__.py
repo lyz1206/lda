@@ -6,7 +6,7 @@ Created on Mon Apr 29 16:51:16 2019
 @author: linyizi
 """
 
-import lda_opt
+
 
 
 

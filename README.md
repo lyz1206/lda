@@ -10,6 +10,6 @@ python setup.py install
 
 Content:
 1.  Source code: in `ldapkg` package 
-2.  Test code: Test_Simulated.jpynb 
-3.  Examples: Examples.jpynb
+2.  Test code: Test_Simulated.ipynb 
+3.  Examples: Examples.ipynb
 4.  Report: final report

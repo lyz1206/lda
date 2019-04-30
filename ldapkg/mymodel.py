@@ -200,4 +200,4 @@ class LDA_OPT():
             if self._convergence_(alpha_new, alpha_old) & self._convergence_(np.sum(beta_new,0), np.sum(beta_old,0)):
                 break
         
-        return alpha_new, beta_new
+        return alpha_new/np.sum(alpha_new), beta_new

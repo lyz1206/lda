@@ -1,7 +1,7 @@
 # STA 663 Final Project
 ###  Yizi Lin, Siqi Fu
 
-LDA package reop:https://github.com/lyz1206/lda <br>
+You may use Git to clone the repository from GitHub and install it manually:
 ```
 git clone https://github.com/MSSfusiqi/LDA_EM
 cd LDA_EM

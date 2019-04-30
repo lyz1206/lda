@@ -9,6 +9,7 @@ python setup.py install
 ```
 
 Content:
-1. data : paper dataset, real dataset
-2. report : final report
-3. Code: simulation, two real-world example
+1.  Source code: LDA_without OPT.py  
+2.  Test code: Test_Simulated.jpynb 
+3.  Examples: Examples.jpynb
+4.  Report: final report

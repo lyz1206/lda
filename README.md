@@ -4,7 +4,7 @@
 You may use Git to clone the repository from GitHub and install it manually:
 ```
 git clone https://github.com/lyz1206/lda.git
-cd LDA_EM
+cd lda
 python setup.py install
 ```
 
